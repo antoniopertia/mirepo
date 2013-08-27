@@ -1,0 +1,14 @@
+name = modulo-administracion
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = node
+dependencies[] = text
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field][] = node-p_gina_especial-body
+features[node][] = p_gina_especial
+features[views_view][] = administrar

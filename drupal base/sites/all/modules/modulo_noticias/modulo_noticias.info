@@ -1,0 +1,17 @@
+name = modulo-noticias-foto
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = icompany_config
+dependencies[] = panels
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field_base][] = body
+features[field_base][] = field_news_img
+features[field_base][] = field_tags
+features[field_instance][] = node-noticia-body
+features[field_instance][] = node-noticia-field_news_img
+features[field_instance][] = node-noticia-field_tags
+features[node][] = noticia
+features[views_view][] = noticias
+features_exclude[dependencies][views] = views

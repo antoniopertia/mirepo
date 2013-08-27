@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the modulo-galeria feature.
+ */
+
+include_once 'modulo_galeria.features.inc';

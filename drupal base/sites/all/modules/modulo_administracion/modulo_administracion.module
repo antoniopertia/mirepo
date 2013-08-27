@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the modulo-administracion feature.
+ */
+
+include_once 'modulo_administracion.features.inc';

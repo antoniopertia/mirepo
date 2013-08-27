@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the modulo-banner feature.
+ */
+
+include_once 'modulo_banner.features.inc';

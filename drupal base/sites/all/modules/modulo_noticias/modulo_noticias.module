@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the modulo-noticias feature.
+ */
+
+include_once 'modulo_noticias.features.inc';
